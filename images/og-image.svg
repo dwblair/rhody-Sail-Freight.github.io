@@ -1,0 +1,37 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#faf5e4"/>
+
+  <!-- Water wave at bottom -->
+  <path d="M0 500 Q150 470 300 500 T600 500 T900 500 T1200 500 L1200 630 L0 630 Z" fill="#a8d4f0" opacity="0.5"/>
+  <path d="M0 520 Q150 550 300 520 T600 520 T900 520 T1200 520 L1200 630 L0 630 Z" fill="#68d391" opacity="0.3"/>
+
+  <!-- Sailboat illustration -->
+  <g transform="translate(100, 150)">
+    <!-- Hull -->
+    <path d="M50 280 Q150 310 250 280 L230 250 L70 250 Z" fill="#c05621" stroke="#1a365d" stroke-width="4"/>
+    <!-- Mast -->
+    <path d="M150 250 L150 50" stroke="#1a365d" stroke-width="6" stroke-linecap="round"/>
+    <!-- Main sail -->
+    <path d="M150 60 Q230 140 150 240 Z" fill="#faf5e4" stroke="#1a365d" stroke-width="3"/>
+    <!-- Jib sail -->
+    <path d="M150 60 Q90 110 70 180 L150 180 Z" fill="#faf5e4" stroke="#1a365d" stroke-width="3"/>
+    <!-- Cargo boxes -->
+    <rect x="90" y="230" width="30" height="20" fill="#68d391" stroke="#1a365d" stroke-width="2" rx="3"/>
+    <rect x="125" y="230" width="40" height="20" fill="#68d391" stroke="#1a365d" stroke-width="2" rx="3"/>
+    <rect x="170" y="230" width="30" height="20" fill="#68d391" stroke="#1a365d" stroke-width="2" rx="3"/>
+    <!-- Flag -->
+    <path d="M150 50 L150 30 L180 40 L150 50" fill="#c05621" stroke="#1a365d" stroke-width="2"/>
+  </g>
+
+  <!-- Text -->
+  <text x="450" y="200" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#1a365d">Rhody Sail Freight</text>
+  <text x="450" y="280" font-family="Georgia, serif" font-size="36" fill="#718096">Farm to Table, By Sail</text>
+
+  <!-- Tagline -->
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="28" fill="#2d3748">Zero-emission cargo delivery across</text>
+  <text x="450" y="400" font-family="Arial, sans-serif" font-size="28" fill="#2d3748">Narragansett Bay</text>
+
+  <!-- URL -->
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="24" fill="#c05621">rhodysailfreight.org</text>
+</svg>
